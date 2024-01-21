@@ -1,5 +1,3 @@
-const str1 = 'francis';
-const str2 = 'francois';
 const levenshteinDistance = (str1 = '', str2 = '') => {
    const track = Array(str2.length + 1).fill(null).map(() =>
    Array(str1.length + 1).fill(null));
